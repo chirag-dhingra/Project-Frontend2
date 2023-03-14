@@ -251,6 +251,130 @@ section.best-sellers .product-slider .product .product-info button{
 
 }
 
+section.newsletter{
+    background-color: rgba(200, 200, 200, 0.18);
+    max-width: 955px;
+    text-align: center;
+    padding: 72px 0;
+    margin: 80px  auto;
+}
 
+section.newsletter h3{
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 
+section.newsletter p{
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
 
+section.newsletter form{
+    display: flex;
+    justify-content: center;
+}
+
+section.newsletter form input{
+    height: 50px;
+    width: 326px;
+    max-width: 80%;
+    border-radius: 170px 0 0 170px;
+    box-sizing: border-box;
+    border: 1px solid #3e3e3e;
+    color: #3e3e3e;
+    font-family: Heebo;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    padding-left: 22px;
+}
+
+section.newsletter form button{
+    height: 50px;
+    width: 145px;
+    max-width: 20%;
+    border-radius: 0 170px 170px 0;
+    border-radius: 0 60px 60px 0;
+    background-color: #3e50e5;
+    border: 1px solid #3E50E5;
+    color: #FFF;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+footer .bottom-nav{
+ padding: 60px 0;
+ background-color: #3e3e3e;
+}
+
+footer .copyright-text{
+    color: white;
+    background-color: #2b2b2b;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+
+}
+
+footer .bottom-nav{
+    padding: 60px;
+    background-color: #3e3e3e;
+}
+
+footer .bottom-nav .container{
+    max-width: 955px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .bottom-nav ul{ 
+    list-style: none;
+}
+
+footer .bottom-nav ul li a{ 
+    color: #e0e0e0;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+footer .bottom-nav ul .list-title{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+footer .bottom-nav ul li.list-title{ /*li.list-title and li .list-title are 2 different things*/
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+footer .copyright-text{
+    color: white;
+}
